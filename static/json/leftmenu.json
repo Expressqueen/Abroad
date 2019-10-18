@@ -1,0 +1,78 @@
+{
+    "Msg":"侧边栏菜单",
+    "data":[
+      {"route":"/","icon":"layui-icon layui-icon-home","text":"首页"},
+	  {"icon":"layui-icon layui-icon-form","text":"计划管理","route":"javascript:;",
+		"children":[
+			{"route":"","text":"团组(含培训)计划"},
+			{"route":"","text":"确定团组(含培训)计划"},
+			{"route":"","text":"计划费用管理"}
+		]
+	  },
+      {"icon":"fa fa-podcast","text":"因公出访","route":"",
+      "children":[
+        {"route":"/EaAddEdit","text":"立项编辑"},
+        {"route":"","text":"待处理立项"},
+		{"route":"","text":"批量接收"}
+      ]},
+      {"icon":"layui-icon layui-icon-component","text":"因私出访","route":"javascript:;",
+		"children":[
+		  {"route":"","text":"填报新团组"}
+	  ]},
+	  {"icon":"layui-icon layui-icon-template","text":"来华签证申请表","route":"javascript:;",
+	  	"children":[
+			{"route":"","text":"新增来华签证申请表"},
+			{"route":"","text":"待处理来华签证申请表"}
+	  ]},
+	  {"icon":"layui-icon layui-icon-app","text":"出国境手续","route":"javascript:;",
+	  	"children":[
+	  		{"route":"","text":"批件浏览器(文号)"},
+	  		{"route":"","text":"批件浏览器(姓名)"},
+			{"route":"","text":"批件浏览器(国家)"}
+	  ]},
+	  {"icon":"fa fa-group","text":"人员管理","route":"javascript:;",
+	  	"children":[
+	  		{"route":"","text":"增加新人员"},
+	  		{"route":"","text":"人员管理"},
+	  		{"route":"","text":"重要人员管理"},
+			{"route":"","text":"人员综合查询"},
+			{"route":"","text":"按人员单位查询护照"}
+	  ]},
+	  {"icon":"fa fa-file-text","text":"护照管理","route":"javascript:;",
+	  	"children":[
+	  		{"route":"","text":"护照管理"},
+	  		{"route":"","text":"签证管理"},
+	  		{"route":"","text":"已标记删除的护照"}
+	  ]},
+	  {"icon":"fa fa-paste","text":"护照借还管理","route":"javascript:;",
+	  	"children":[
+	  		{"route":"","text":"护照借出"},
+	  		{"route":"","text":"护照归还"},
+	  		{"route":"","text":"未归还清单"},
+			{"route":"","text":"逾期未归还清单"},
+			{"route":"","text":"护照借还查询"}
+	  ]},
+	  {"icon":"fa fa-file","text":"团组总结报告","route":"javascript:;",
+	  	"children":[
+	  		{"route":"","text":"报告管理"},
+	  		{"route":"","text":"未交清单"},
+	  		{"route":"","text":"总结报告共享"}
+	  ]},
+	  {"icon":"fa fa-search","text":"查询统计","route":"javascript:;",
+	  	"children":[
+	  		{"route":"","text":"立项综合查询"},
+	  		{"route":"","text":"邀请函综合查询"},
+	  		{"route":"","text":"申办签证综合查询"},
+			{"route":"","text":"统计表格"},
+			{"route":"","text":"党政干部出国数据打包"}
+	  ]},
+	  {"icon":"layui-icon layui-icon-set","text":"系统管理","route":"javascript:;",
+	  	"children":[
+	  		{"route":"","text":"用户管理"},
+	  		{"route":"","text":"单位管理"},
+	  		{"route":"","text":"国家管理"},
+	  		{"route":"","text":"查阅通告"},
+	  		{"route":"","text":"新闻后台管理"}
+	  ]}
+    ]
+}

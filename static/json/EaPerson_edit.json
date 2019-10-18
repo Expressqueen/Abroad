@@ -1,0 +1,34 @@
+{
+  "data": [
+    {
+	    "Id": "1",
+      "Xmbm":"2535",
+      "Name":"汪涛",
+      "Sex":"男",
+      "IdCode":"111111111111111111",
+      "Brithday":"1964-08-03",
+      "UnitName":"河北省",
+      "SubUnitName":"",
+      "Position":"副主任(处级)",
+      "Profession":"",
+      "Passport":"",
+      "membertype":"副主任",
+      "control":""
+    },
+    {
+      "Id": "2",
+      "Xmbm":"2535",
+      "Name":"汪彤",
+      "Sex":"男",
+      "IdCode":"111111111111111111",
+      "Brithday":"1968-04-10",
+      "UnitName":"农业农村部科技发展中心",
+      "SubUnitName":"技术合作处",
+      "Position":"主任科员(副科级)",
+      "Profession":"",
+      "Passport":"",
+      "membertype":"主任科员",
+      "control":""
+    }
+  ]
+}

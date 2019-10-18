@@ -1,0 +1,30 @@
+{
+	"data":[
+		{
+			"Id":"1",
+			"Project":"参加艾米买提",
+			"Notification":"(停用)农业农村部人力资源开发中心（中国农学会）",
+			"Plans":"计划外",
+			"ReceiptNumber":"201900050",
+			"LastTime":"2019/04/26 14:00",
+			"Operation":[
+				{"id":"Requestletter","title":"征求意见函"},
+				{"id":"feedback","title":"反馈"}
+			],
+			"control":""
+		},
+		{
+			"Id":"2",
+			"Project":"赴巴西、阿根廷执行农业生物技术工作小组会议的任务",
+			"Notification":"农业农村部科技教育司",
+			"Plans":"计划内",
+			"ReceiptNumber":"",
+			"LastTime":"2019/04/26 14:01",
+			"Operation":[
+				{"id":"Requestletter","title":"征求意见函"},
+				{"id":"feedback","title":"反馈"}
+			],
+			"control":""
+		}
+	]
+}

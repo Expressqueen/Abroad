@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
+		<link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.dataTables.min.css">
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+		<script type="text/javascript" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+		<script type="text/javascript" src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"></script>
+	</head>
+	<body>
+		<button onclick="addhang()" type="button">增加一行</button>
+		<table id="example" class="display nowrap" style="width:100%">
+		        <thead>
+		            <tr>
+		                <th>First name</th>
+		                <th>Last name</th>
+		                <th>Position</th>
+		                <th>Office</th>
+		                <th>Age</th>
+		                <th>Start date</th>
+		                <th>Salary</th>
+		                <th>Extn.</th>
+		                <th>E-mail</th>
+		            </tr>
+		        </thead>
+		        <tbody>
+		            <tr>
+		                <td>Tiger</td>
+		                <td>Nixon</td>
+		                <td>System Architect</td>
+		                <td>Edinburgh</td>
+		                <td>61</td>
+		                <td>2011/04/25</td>
+		                <td>$320,800</td>
+		                <td>5421</td>
+		                <td>t.nixon@datatables.net</td>
+		            </tr>
+		            <tr>
+		                <td>Garrett</td>
+		                <td>Winters</td>
+		                <td>Accountant</td>
+		                <td>Tokyo</td>
+		                <td>63</td>
+		                <td>2011/07/25</td>
+		                <td>$170,750</td>
+		                <td>8422</td>
+		                <td>g.winters@datatables.net</td>
+		            </tr>
+		            <tr>
+		                <td>Ashton</td>
+		                <td>Cox</td>
+		                <td>Junior Technical Author</td>
+		                <td>San Francisco</td>
+		                <td>66</td>
+		                <td>2009/01/12</td>
+		                <td>$86,000</td>
+		                <td>1562</td>
+		                <td>a.cox@datatables.net</td>
+		            </tr>
+		            <tr>
+		                <td>Cedric</td>
+		                <td>Kelly</td>
+		                <td>Senior Javascript Developer</td>
+		                <td>Edinburgh</td>
+		                <td>22</td>
+		                <td>2012/03/29</td>
+		                <td>$433,060</td>
+		                <td>6224</td>
+		                <td>c.kelly@datatables.net</td>
+		            </tr>
+		            <tr>
+		                <td>Airi</td>
+		                <td>Satou</td>
+		                <td>Accountant</td>
+		                <td>Tokyo</td>
+		                <td>33</td>
+		                <td>2008/11/28</td>
+		                <td>$162,700</td>
+		                <td>5407</td>
+		                <td>a.satou@datatables.net</td>
+		            </tr>
+		            <tr>
+		                <td>Brielle</td>
+		                <td>Williamson</td>
+		                <td>Integration Specialist</td>
+		                <td>New York</td>
+		                <td>61</td>
+		                <td>2012/12/02</td>
+		                <td>$372,000</td>
+		                <td>4804</td>
+		                <td>b.williamson@datatables.net</td>
+		            </tr>
+		        </tbody>
+		    </table>
+	</body>
+	<script>
+		var table;
+		$(document).ready(function() {
+		    table = $('#example').DataTable();
+		    // new $.fn.dataTable.Responsive( table );
+			
+			new $.fn.dataTable.Responsive( table );
+		});
+		var counter=1;
+		function addhang(){
+			alert(123);
+			table.row.add( [
+			            counter +'.1',
+			            counter +'.2',
+			            counter +'.3',
+			            counter +'.4',
+			            counter +'.5咖色购房人亏规划靠人工河入海汇聚咳嗽让格力wish人工时今日豆粕sewUI欧冠IE所谓的然后',
+						counter +'.6',
+						counter +'.7',
+						counter +'.8',
+						counter +'.9',
+			        ] ).draw( false );
+			        counter++;
+			// new $.fn.dataTable.Responsive( table );
+		}
+	</script>
+</html>

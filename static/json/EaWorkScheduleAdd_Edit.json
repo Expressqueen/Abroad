@@ -1,0 +1,18 @@
+{
+  "data": [
+    {
+	    "Id": "1",
+      "Date":"2019-04-26",
+      "SpecificTime":"下午",
+      "Arrangements":"赴因公出国境批件",
+      "BasePlace":"石岗山"
+    },
+    {
+      "Id": "2",
+      "Date":"2019-04-26~2019-05-16",
+      "SpecificTime":"",
+      "Arrangements":"华盛顿特区-北京",
+      "BasePlace":"飞机上"
+    }
+  ] 
+}

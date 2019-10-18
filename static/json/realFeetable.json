@@ -1,0 +1,37 @@
+{
+  "data": [
+    {
+	    "Id": "1",
+      "VisitNational":"澳大利亚:墨尔本",
+      "Staydays":"5",
+      "Currency":"美元",
+      "ForeignSumbz":"210.00",
+      "Boardingfeebz":"60.00",
+      "Miscellaneousbz":"50.00",
+      "ForeignSum":"00.00",
+      "Boardingfee":"00.00",
+      "Miscellaneous":"00.00",
+      "Citytransportation":"00.00",
+      "Otherfees":"00.00",
+      "Sumfees":"1,875.00",
+      "control":""
+    },
+    {
+      "Id": "1",
+      "VisitNational":"澳大利亚:堪培拉",
+      "Staydays":"6",
+      "Currency":"美元",
+      "ForeignSumbz":"210.00",
+      "Boardingfeebz":"60.00",
+      "Miscellaneousbz":"50.00",
+      "ForeignSum":"00.00",
+      "Boardingfee":"00.00",
+      "Miscellaneous":"00.00",
+      "Citytransportation":"00.00",
+      "Otherfees":"00.00",
+      "Sumfees":"1,875.00",
+      "control":""
+    }
+
+  ]
+}
